@@ -1,0 +1,27 @@
+:root {
+	font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+	color: #202522;
+	background: #f3f1eb;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	--text: #687169;
+	--ink: #202522;
+	--paper: #fbfaf7;
+	--surface: #ffffff;
+	--line: #e4e1d9;
+	--coral: #d76d5c;
+	--coral-soft: #f5e1dc;
+	--green: #71968a;
+	--green-soft: #e8f0eb;
+	--gold: #bc9d58;
+	--shadow-soft: 0 12px 32px rgba(32, 37, 34, .06);
+	--shadow-panel: 0 2px 0 rgba(32, 37, 34, .02), 0 18px 45px rgba(32, 37, 34, .05);
+	--radius: 7px;
+}
+* { box-sizing: border-box; }
+html { min-width: 320px; background: var(--paper); }
+body { margin: 0; min-width: 320px; background: var(--paper); }
+button, input, select, textarea { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--coral); outline-offset: 3px; }
